@@ -1,4 +1,6 @@
 npm commands:
+
+
 1.npm install (in package directory, no arguments):
    Install the dependencies in the local node_modules folder.
    In global mode (ie, with -g or --global appended to the command), 
