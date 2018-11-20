@@ -1,1 +1,13 @@
-vv
+//after executing the program we have all the files appended to write.txt
+write.txt
+
+Hello!!!
+HOW ARE YOUU DOING?????????
+PYTHON FRAMEWORK FLASK********
+WEB APPLICATIONS!!!!!!!!
+ANDROID APPLICATIONS@@@@@@@@@
+GOOGLE IS A SEARCH ENGINE$$$$$$$$$
+MICROSOFT IS WINDOWS DEVELOPER!!!!
+ORACLE DATABASE!!!!!!!
+CODING IS EASY######
+WELCOME TO BERKADIA!!!
