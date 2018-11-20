@@ -1,0 +1,29 @@
+file1.txt
+Hello!!!
+
+file2.txt
+HOW ARE YOUU DOING?????????
+
+file3.txt
+PYTHON FRAMEWORK FLASK********
+
+file4.txt
+WEB APPLICATIONS!!!!!!!!
+
+file5.txt
+ANDROID APPLICATIONS@@@@@@@@@
+
+file6.txt
+GOOGLE IS A SEARCH ENGINE$$$$$$$$$
+
+file7.txt
+MICROSOFT IS WINDOWS DEVELOPER!!!!
+
+file8.txt
+ORACLE DATABASE!!!!!!!
+
+file9.txt
+CODING IS EASY######
+
+file10.txt
+WELCOME TO BERKADIA!!!
