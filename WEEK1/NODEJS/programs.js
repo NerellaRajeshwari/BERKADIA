@@ -1,4 +1,4 @@
-code:
+1.code: addition 
 //addition 
 var n = Number(process.argv[2]);
 var m = Number(process.argv[3]);
@@ -9,7 +9,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 1 2
 sum is 3
 
-code:
+2. code:division
 //division
 var n = Number(process.argv[2]);
 var m = Number(process.argv[3]);
@@ -20,7 +20,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 10 5
 division is 2
 
-code:
+3. code:duplicates
 //duplicates
 var a =process.argv.slice(2);
 var free = [];
@@ -40,7 +40,7 @@ output:
  C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 9 1 2 1 4 3 2
 repeated elements are:1,2
 
-code:
+4.code:
 //factorial
 var i, n,fact;
 f=1;
@@ -57,7 +57,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 5
 factorial is:120
 
-code:
+5.code:
 //fibonacci
 function fib(n) {
   var array1=[0,1];
@@ -75,7 +75,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 5
 [ 0, 1, 1, 2, 3 ]
 
-code:
+6.code:
 //max element
 function large(a)
       {
@@ -95,7 +95,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 9 1 2 1 4 3 2
 9
 
-code:
+7.code:
 function Min(a){
    //min element
     var min=Number(a[2]);
@@ -115,7 +115,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 7 9 5
  Minimum element: 5
 
-code:
+8.code:
 //multiplication
 var n = Number(process.argv[2]);
 var m = Number(process.argv[3]);
@@ -126,7 +126,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 10 5
 sub is 50
 
-code:
+9.code:
 //prime numbers
 var n=process.argv[2];
 var array1=[];
@@ -147,7 +147,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 11
 prime nmbrs till 11 are:2,3,5,7,11
 
-code:
+10.code:
 //seraching element
 function Searching(a){
     var n= Number(a[2]);
@@ -174,7 +174,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 1 2 5 4
 number exits
 
-code:
+11.code:
 //sorting
 function Sorting(a)
 {
@@ -200,7 +200,7 @@ output:
 C:\Users\Rajeshwary\Desktop\javascripting\my-dream-app>node index.js 9 1 5
 [ 1, 5, 9 ]
 
-code:
+12.code:
 //substraction
 var n = Number(process.argv[2]);
 var m = Number(process.argv[3]);
