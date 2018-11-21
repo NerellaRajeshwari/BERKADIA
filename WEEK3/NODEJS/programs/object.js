@@ -20,3 +20,10 @@ document.getElementById("demo").innerHTML = person.fullName();
 </script>
 </body>
 </html>
+
+
+output:
+//it willl be displayed in chrome 
+
+program to implement object creation
+John Doe 5566
