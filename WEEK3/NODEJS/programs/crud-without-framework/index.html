@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+CURD OPERATIONS
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+        
+            <centre>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>EMP NAME : </label><label class="validation-error hide" id="empnameValidationError">This field is required.</label>
+                        <input type="text" name="empname" id="empname">
+                    </div>
+                    <div>
+                        <label>EMP ID : </label>
+                        <input type="text" name="empid" id="empid">
+                    </div>
+                    <div>
+                        <label>SALARY : </label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>CITY : </label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            
+            </centre>
+                <table class="list" id="empList">
+                    <thead>
+                        <tr>
+                            <th>EMP NAME</th>
+                            <th>EMP ID</th>
+                            <th>SALARY</th>
+                            <th>CITY</th>
+                            <th>OPTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
