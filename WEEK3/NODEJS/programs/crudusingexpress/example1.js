@@ -1,3 +1,9 @@
+//in this i used express, joi and postman to perform crud operations
+//express is a lightweight web application framework 
+// joi is used for validation purpose we need to define a class for it
+// Postman is a popular API client that makes it easy for developers to create, share, test and document APIs.
+
+
 const Joi= require('joi');
 const express= require('express');
 const app= express();
