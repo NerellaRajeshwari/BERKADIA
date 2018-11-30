@@ -12,14 +12,21 @@ APACHE CONFIGURATION:
 NameVirtualHost *:80
 
 <VirtualHost *:80>
+
 ServerName www.example.com
+
 ServerAlias example.com *.example.com
+
 DocumentRoot /data/www/example
+
 </VirtualHost>
 
 <VirtualHost *:80>
+
 ServerName www.other-example.com
+
 DocumentRoot /data/www/other-example
+
 </VirtualHost>
 
 2.NGINX:
@@ -34,8 +41,11 @@ NGNIX CONFIGURATION:
 
 server {
     listen 80;
+    
     server_name example.org www.example.org;
+    
     root /data/www;
+    
 
     location / {
         index index.html index.php;
@@ -45,8 +55,11 @@ server {
         expires 30d;
     }
 location ~ \.php$ {
+
         fastcgi_pass localhost:9000;
+        
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        
         include fastcgi_params;
     }
     
