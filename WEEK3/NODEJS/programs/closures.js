@@ -3,7 +3,23 @@
 (variables defined between its curly brackets),
 it has access to the outer function’s variables, and it has access to the global variables*/
 
+code:
+//basic program 
+function hello(name, age) {
+  var message = name + ", who is " + age + " years old, says hi!";
+  return function hi() {
+    console.log(message);
+  };
+}
+// Generating the closure
+var rajHello = hello("Rajee", 20);//use of closure is to call a function that generates another function or group of functions but hides all the state in private variables within the closure
+// Use the closure
+rajHello();
 
+
+OUTPUT:
+PS C:\Users\Rajeshwary\Desktop\Typescripting> node example.js
+Rajee, who is 20 years old, says hi!
 
 
 
