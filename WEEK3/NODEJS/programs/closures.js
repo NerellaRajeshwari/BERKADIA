@@ -40,7 +40,7 @@ function Person(name, age)
   // Define a method with async internals
   Person.prototype.shello = function shello() 
   {
-    var self = this; // Use a closure to preserve `this`
+    var self = this; // Use a closure to preserve `this` in code
     setTimeout(function () {
       console.log(self.message);
     }, 1000);
