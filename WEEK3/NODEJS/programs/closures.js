@@ -22,7 +22,9 @@ OUTPUT:
 PS C:\Users\Rajeshwary\Desktop\Typescripting> node example.js
 Rajee, who's 20 years old, says hi!
 
-2.CODE:
+
+
+CODE:
 
 persondetails.js
 //create a class and use it in various codes
