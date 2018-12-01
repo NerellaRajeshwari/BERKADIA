@@ -14,7 +14,7 @@ persondetails.js
 // Define the constructor
 function Person(name, age)
   {
-    this.message = name + ", who's " + age + " years old, says hi!";
+    this.message = name + ", who " + age + " years old, says hi!";
   };
   
   // Define a sync method
@@ -44,4 +44,4 @@ function Person(name, age)
   OUTPUT:
 
 PS C:\Users\Rajeshwary\Desktop\Typescripting> node example.js
-Rajee, who's 20 years old, says hi
+Rajee, who 20 years old, says hi
