@@ -4,23 +4,6 @@
 it has access to the outer function’s variables, and it has access to the global variables*/
 
 
-1.CODE:
-//basic program 
-function hello(name, age) {
-  var message = name + ", who's " + age + " years old, says hi!";
-  return function hi() {
-    console.log(message);
-  };
-}
-// Generating the closure
-var rajHello = hello("Rajee", 20);//use of closure is to call a function that generates another function or group of functions but hides all the state in private variables within the closure
-// Use the closure
-rajHello();
-
-
-OUTPUT:
-PS C:\Users\Rajeshwary\Desktop\Typescripting> node example.js
-Rajee, who's 20 years old, says hi!
 
 
 
