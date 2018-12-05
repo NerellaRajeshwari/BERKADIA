@@ -114,11 +114,16 @@ We have looked at ten of the best-known Node.js frameworks that are available to
 factors to be considered:
 
 availability and completeness of documentation;
+
 community size;
-open issues on GitHub;
+
 type of issues it can solve;
+
 flexibility;
+
 complexity;
+
 compatibility with other tools you are planning to use.
+
 
 At the same time, all frameworks are meant to ease the development process. Thus, each of them is going to add quality and raise the performance of your application.
