@@ -49,12 +49,12 @@ PUT /MAC would replace the entire collection of MACs, DELETE /MAC would delete e
 
 REST Resource Naming Guide:
 
-1. A resource can be a singleton or a collection. For example, “customers” is a collection resource and “customer” is a singleton resource (in a banking domain). We can identify “customers”
+1. A resource can be a singleton or a collection. For example, “customers” is a collection resource and “customer” is a singleton          resource (in a banking domain). We can identify “customers”
    collection resource using the URI “/customers”. We can identify a single “customer” resource using the URI “/customers/{customerId}”.
 
 2. A resource may contain sub-collection resources also. For example, sub-collection resource “accounts” of a particular “customer” can be identified using the 
-   URN “/customers/{customerId}/accounts” (in a banking domain). Similarly, a singleton resource “account” inside the sub-collection resource “accounts” can be identified 
-   as follows: “/customers/{customerId}/accounts/{accountId}”.
+   URN “/customers/{customerId}/accounts” (in a banking domain). Similarly, a singleton resource “account” inside the sub-collection        resource “accounts” can be identified as follows: 
+   “/customers/{customerId}/accounts/{accountId}”.
 
 REST Resource Naming Best Practices
 Use nouns to represent resources
@@ -113,34 +113,34 @@ http://api.example.com/song-management/users/{id}/playlist/play
 
 Consistency is the key:
 
-1. Use forward slash (/) to indicate a hierarchical relationships
-   example:   http://api.example.com/device-management/managed-devices/{id}/scripts
+1. Use forward slash (/) to indicate a hierarchical relationships:
+    example:   http://api.example.com/device-management/managed-devices/{id}/scripts
 
-2. Do not use trailing forward slash (/) in URIs
+2. Do not use trailing forward slash (/) in URIs:
     example:  http://api.example.com/device-management/managed-devices/
 
-3. Use hyphens (-) to improve the readability of URIs
+3. Use hyphens (-) to improve the readability of URIs:
     example:  http://api.example.com/inventory-management/managed-entities/{id}/install-script-location  //More readable
-                      http://api.example.com/inventory-management/managedEntities/{id}/installScriptLocation  //Less readable
+              http://api.example.com/inventory-management/managedEntities/{id}/installScriptLocation  //Less readable
 
-4. Do not use underscores ( _ )
+4. Do not use underscores ( _ ):
     example: http://api.example.com/inventory-management/managed-entities/{id}/install-script-location  //More readable
-                     http://api.example.com/inventory_management/managed_entities/{id}/install_script_location  //More error prone
+             http://api.example.com/inventory_management/managed_entities/{id}/install_script_location  //More error prone
 
-5.Use lowercase letters in URIs 
+5.Use lowercase letters in URIs :
    example:  http://api.example.org/my-folder/my-doc  //1
-                      HTTP://API.EXAMPLE.ORG/my-folder/my-doc  //2
-                       http://api.example.org/My-Folder/my-doc  //3
+             HTTP://API.EXAMPLE.ORG/my-folder/my-doc  //2
+             http://api.example.org/My-Folder/my-doc  //3
 
-6. Do not use file extenstions
+6. Do not use file extenstions:
     example: http://api.example.com/device-management/managed-devices.xml  /*Do not use it*/
-                     http://api.example.com/device-management/managed-devices     /*This is correct URI*/
+             http://api.example.com/device-management/managed-devices     /*This is correct URI*/
 
-7. Never use CRUD function names in URIs
+7. Never use CRUD function names in URIs:
     example: HTTP GET http://api.example.com/device-management/managed-devices  //Get all devices
-                     HTTP POST http://api.example.com/device-management/managed-devices  //Create new Device
+             HTTP POST http://api.example.com/device-management/managed-devices  //Create new Device
 
-8. Use query component to filter URI collection
+8. Use query component to filter URI collection:
     example: http://api.example.com/device-management/managed-devices
-                     http://api.example.com/device-management/managed-devices?region=USA
-                    http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ
+             http://api.example.com/device-management/managed-devices?region=USA
+             http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ
