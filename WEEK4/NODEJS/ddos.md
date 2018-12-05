@@ -50,5 +50,5 @@ a name for himself. He was sent to a juvenile detention centre although he faced
 David L. Smith vs. Microsoft Word and Excel: 
 
 The man used a stolen American online account to spread a virus that was named after a sipperars name. The virus spread
-onto 50 accounts through email and jammed servers. In the end â€œMelissaâ€ gave viral lap dances to 50 million accounts that resulted 
+onto 50 accounts through email and jammed servers. In the end a Melissaae gave viral lap dances to 50 million accounts that resulted 
 in a loss of $80 million.
