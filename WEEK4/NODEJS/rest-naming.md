@@ -25,10 +25,12 @@ POST http://www.example.com/orders
 POST http://www.example.com/customers/33245/orders // we're creating an order for customer ID# 33245.
 
  the following would  return list of orders that customer #33245 has created or owns.:
-GET http://www.example.com/customers/33245/orders
+GET :
+http://www.example.com/customers/33245/orders
 Probably a list of orders that customer #33245 has created or owns. 
 
 To go one layer deeper in the hierarchy:
+
 GET http://www.example.com/customers/33245/orders/8769/lineitems/1
 Might return only the first line item in that same order.
 
