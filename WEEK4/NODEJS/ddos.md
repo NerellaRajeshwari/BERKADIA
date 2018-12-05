@@ -5,16 +5,19 @@ with a Trojan, are used to target a single system causing a Denial of Service (D
 end targeted system and all systems maliciously used and controlled by the hacker in the distributed attack.
 
 How DDoS Attacks Work?
+
 In a DDoS attack, the incoming traffic flooding the victim originates from many different sources – potentially hundreds of thousands or
 more. This effectively makes it impossible to stop the attack simply by blocking a single IP address; plus, it is very difficult to 
 distinguish legitimate user traffic from attack traffic when spread across so many points of origin.
 
 The Difference Between DoS and DDos Attacks:
+
 A Denial of Service (DoS) attack is different from a DDoS attack. The DoS attack typically uses one computer and one Internet connection 
 to flood a targeted system or resource. The DDoS attack uses multiple computers and Internet connections to flood the targeted resource.
 DDoS attacks are often global attacks, distributed via botnets.
 
 Types of DDoS Attacks:
+
 There are many types of DDoS attacks. Common attacks include the following:
 
 Traffic attacks: Traffic flooding attacks send a huge volume of TCP, UDP and ICPM packets to the target. 
