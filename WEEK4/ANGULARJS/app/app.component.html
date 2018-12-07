@@ -1,0 +1,19 @@
+<div align="center" style="background-color:lightblue">
+    <font color="green"><h1>Items List</h1></font>
+    <h3><span style="color:black">Items selected  :  </span>
+      <span style="color:black">{{list.it}}</span>  and
+      <span style="color:black">Total cost : </span>Rs 
+      <span style="color:black">{{list.tc}} </span>/-</h3>
+</div>
+      <div align="center" style="background-color:greenyellow">
+      <font size="4"><span style="color:black">ItemNames</span> ...............
+     <span style="color:black">Price</span>...............
+        <span style="color:black">Cart</span></font>
+      <hr><hr>
+  </div>
+  
+  <app-viewitem 
+  [name]='i.item' [price]='i.price' (totalitems)='gettotalitems($event)'
+  *ngFor='let i of itemslist'></app-viewitem>
+
+  <router-outlet></router-outlet>
