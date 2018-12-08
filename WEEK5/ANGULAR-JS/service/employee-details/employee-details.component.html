@@ -1,0 +1,17 @@
+
+<h2 align="center">EMPLOYEE DETAILS LIST:</h2>
+
+<table align="center" style="margin: 0px auto;" border="1">
+
+  <tr ngClass="tr">
+    <td>ID</td>
+    <td>NAME</td>
+    <td>AGE</td>
+  </tr>
+
+<tr ngClass="td" *ngFor = "let employee of employees">
+  <td>{{employee.id}}</td>
+  <td>{{employee.name}}</td>
+  <td>{{employee.age}}</td>
+</tr>
+</table>
