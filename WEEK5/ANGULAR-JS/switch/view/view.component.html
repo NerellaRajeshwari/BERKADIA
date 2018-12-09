@@ -1,0 +1,15 @@
+
+<button  (click) = "value = 'BERKADIA'">BERKADIA</button>
+<button (click) = "value = 'TCS'">TCS</button>
+<button (click) = "value = 'ACCENTURE'">ACCENTURE</button>
+<button (click) = "value = 'WIPRO'">WIPRO</button>
+<button (click) = "value = 'CAPGEMINI'">CAPGEMINI</button>
+<h4>SELECTED : {{value}} </h4>
+
+<div [ngSwitch] = "value">
+  <div *ngSwitchCase="'BERKADIA'">1.WELCOME TO - <b>{{value}}</b></div>
+  <div *ngSwitchCase="'TCS'">1.WELCOME TO - <b>{{value}}</b></div>
+  <div *ngSwitchCase="'ACCENTURE'">1.WELCOME TO - <b>{{value}}</b></div>
+  <div *ngSwitchCase="'WIPRO'">1.WELCOME TO - <b>{{value}}</b></div>
+  <div *ngSwitchDefault>1.WELCOME TO - <b>CAPGEMINI</b></div>
+</div>
