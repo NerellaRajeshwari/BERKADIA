@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    WELCOME TO {{ title }}!
+  </h1>
+</div>
+<div [hidden]= " visible===false" style="background-color:yellow;width:20%">This will be displayed</div>
+<div [hidden]= " visible===false" style="background-color:plum;width:20%">This will not be displayed but it will be present</div>
+
+<div *ngIf=" visible===true" style="background-color:aqua;width:20%">This will be displayed by ngIf</div>
+<div *ngIf="visible===false" style="background-color:rgb(55, 0, 255);width:20%">This will be removed by ngIf</div>
+
+
