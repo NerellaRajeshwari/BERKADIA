@@ -1,7 +1,9 @@
+//is extremely useful for mapping “global” logic for specific path prefixes or arbitrary matches
+
 let express=require('express');
 let router=express.Router();
 let app=express();
-router.get('/', function(req, res){
+router.all('/', function(req, res){
     res.send('hello world');
   });
   app.use('/', router);
