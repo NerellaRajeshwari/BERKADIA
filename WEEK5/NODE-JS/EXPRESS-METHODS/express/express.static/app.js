@@ -1,5 +1,6 @@
 //implementing express.static() on a html folder
-
+//by default it displays the index.html file output
+//we can specify the path /app.html for that particular output
 const express = require('express');  
 const app = express();
 
