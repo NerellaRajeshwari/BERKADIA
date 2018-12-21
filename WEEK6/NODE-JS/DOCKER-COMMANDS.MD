@@ -388,3 +388,4 @@ Successfully tagged vieux/apache:2.0
 20. $ docker build -f Dockerfile.debug .
 
 unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /home/scrapbook/tutorial/Dockerfile.debug: no such file or directory
+
