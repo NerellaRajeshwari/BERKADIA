@@ -243,7 +243,7 @@ Successfully tagged my-nodejs-app:latest
 
 6. $ curl http://docker:3000
 
-<!DOCTYPE html><html><head><title>Express</title><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>
+<!DOCTYPE html><html><head><link rel="stylesheet" href="/stylesheets/style.css"></head><body><h1>Express</h1><p>Welcome to Express</p></body></html>
 
 7. $ docker run -d --name my-production-running-app -e NODE_ENV=production -p 3000:3000 my-nodejs-app
 
