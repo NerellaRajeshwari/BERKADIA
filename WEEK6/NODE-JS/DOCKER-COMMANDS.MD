@@ -389,3 +389,6 @@ Successfully tagged vieux/apache:2.0
 
 unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /home/scrapbook/tutorial/Dockerfile.debug: no such file or directory
 
+21. $ docker checkpoint create --checkpoint-dir CONTAINER CHECKPOINT
+
+docker checkpoint create is only supported on a Docker daemon with experimental features enabled
