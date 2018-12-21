@@ -1,5 +1,8 @@
 CODE:
+//This is a built-in middleware function in Express. 
+//It parses incoming requests with JSON payloads and is based on body-parser.
 
+Returns middleware that only parses JSON and only looks at requests where the Content-Type header matches the type option. 
 const express= require('express');
 const app= express();
 
